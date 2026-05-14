@@ -1,0 +1,86 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-image: url(../assets/intro\ bg.png);
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+    }
+    &__menu {
+        display: flex;
+        align-items: center;
+        gap: 41px;
+    }
+    &__link {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+
+        color: #ffffff;
+
+        &:hover {
+            color: #fbb040;
+        }
+    }
+    &__actions {
+        display: flex;
+        align-items: center;
+        gap: 38px;
+    }
+    &__supportBtn {
+        background: none;
+        border: none;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #ffffff;
+        transition: all 0.3 ease;
+
+        &:hover {
+            color: #fbb040;
+        }
+    }
+    &__signBtn {
+        width: 130px;
+        background: #ffbc51;
+        border-radius: 50px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3 ease;
+
+        &:hover {
+            background-color: #fbac34;
+            color: #fff;
+        }
+    }
+    &__burger {
+        display: none;
+    }
+}
+
+.logo {
+    cursor: pointer;
+}

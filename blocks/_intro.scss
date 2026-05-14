@@ -1,0 +1,64 @@
+.intro {
+  background-image: url(../assets/intro\ bg.png);
+  background-size: 1500px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  min-height: 700px;
+
+  .intro__container {
+    position: relative;
+    z-index: 1;
+    padding-top: 150px;
+  }
+
+  &__title {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54.7642px;
+    line-height: 67px;
+    color: #ffffff;
+    width: 500px;
+    margin-bottom: 28px;
+  }
+
+  &__text {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.2547px;
+    line-height: 22px;
+    color: #ffffff;
+    width: 421px;
+    margin-bottom: 38px;
+  }
+
+  &__btn {
+    padding: 15px 60px;
+    background: #798ac9;
+    border: 1px solid rgba(171, 163, 163, 0.2);
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  &__imgComp {
+    position: absolute;
+    z-index: 10;
+    top: 60px;
+    right: -40px;
+  }
+
+  &__imgNout {
+    position: absolute;
+    z-index: 10;
+    top: 90px;
+    right: -150px;
+  }
+}
+
